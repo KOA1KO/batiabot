@@ -3,7 +3,7 @@ from aiogram.dispatcher.filters import Text
 
 from handlers.start import buttons, start
 
-import config
+from configer import config
 
 bot = Bot(token=config.TOKEN)
 

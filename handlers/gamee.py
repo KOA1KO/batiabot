@@ -1,5 +1,5 @@
 from aiogram import types
-from config import EMOJIS
+from configer.config import EMOJIS
 
 import random
 

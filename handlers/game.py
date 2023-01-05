@@ -6,8 +6,7 @@ from aiogram.dispatcher.filters import Text
 from handlers.start import buttons, start
 from handlers.gamee import get_keyboard, get_keyboard2
 
-import random
-import config
+from configer import config
 
 bot = Bot(token=config.TOKEN)
 
